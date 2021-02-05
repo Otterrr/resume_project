@@ -3,6 +3,7 @@ image:
 
 # List the ports you want to expose and what to do when they are served. See https://www.gitpod.io/docs/config-ports/
 ports:
+<<<<<<< HEAD
   - port: 8000
     onOpen: open-preview
 
@@ -10,3 +11,7 @@ ports:
 tasks:
   - init: echo 'init script' # runs during prebuild
     command: echo 'start script'
+=======
+    - port: 3000-8999
+    onOpen: notify
+>>>>>>> 7efb699b77c3b10fbb06e8bab04faecec6808187
