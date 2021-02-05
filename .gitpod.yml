@@ -12,4 +12,4 @@ vscode:
     - kevinglasson.cornflakes-linter@0.5.1:KAaMshgHOKan8eojXQ53OQ==
 ports:
     - port: 3000-8999
-    onOpen: ignore
+    onOpen: notify
